@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel-inner .carousel-item img {
+    object-fit: cover;
+}
+
+.head1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.head2 {
+    font-family: 'dancing Script', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.head3{
+  font-family: 'rubik bubbles','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav-item a:hover {
+    color: white;
+    border-bottom: 2px solid;
+}
+
+
+
+.carousel-inner .carousel-item img {
+    width: 100%;
+}
+
+
+
+.card1{
+  width: 80%;
+  height: max-content;
+  filter: drop-shadow(8px 8px 8px grey);
+  backdrop-filter: filter(5px);
+  background: -webkit-linear-gradient(top,rgba(217, 202, 202, 0.616),rgba(63, 63, 95, 0.178),rgba(213, 207, 207, 0.37));
+  color: white;
+}
+/* css for icon colors */
+
+.fa-solid {
+    color: white;
+}
+/* css for whatsapp icon */
+
+.whats-app {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border: 1px solid white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    right: 13px;
+    z-index: 100;
+}
+
+.my-float {
+    margin-top: 10px;
+}
+
+/* css for phone icon */
+.phone {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 100px;
+    background-color:blue;
+    color: #FFF;
+    border: 1px solid white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    right: 13px;
+    z-index: 100;
+}
+
+
+/* .phone:hover{
+  animation: pulse-animation 2s infinite;
+} */
+
+
+.my-float {
+    margin-top: 10px;
+}
+
+.card:hover{
+  filter: drop-shadow(8px 8px 8px grey);
+  backdrop-filter: filter(5px);
+  background: -webkit-linear-gradient(top,rgba(217, 202, 202, 0.616),rgba(63, 63, 95, 0.178),rgba(213, 207, 207, 0.37));
+  color: white;
+  
+}
+
+/* .forma:hover{
+    filter: drop-shadow(2px 2px 2px grey);
+} */
+
+  .fa-brands{
+    height: 20px;
+    color: #f1f1f1;
+    gap: 25px;
+  }
+  .fa-brands:hover{
+    color: aqua;
+  }
+
+  .card{
+    margin-bottom: 1rem;
+  }
+
+  .div-brand{
+    gap: 25px;
+  }
+
+  .map{
+    overflow-x: hidden;
+  }
+
+  
+  .overlay {
+    position: absolute; 
+    background: rgba(57, 57, 57, 0.5);
+  
+    /* center overlay text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay_1 {
+    left: 0;
+    bottom: 12rem;
+    width: 100%;
+    padding: 1rem;
+  }
+
+ 
+
+  /* testimonial starts here */
+ 
+
+ .card img{
+  padding: 2rem;
+  width:100%;
+  height:70%;
+  border-radius: 50%;
+  
+ }
+
+
+/* Header Section */
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+/* body{
+  background: url(bg.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+} */
+header{
+  width:100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 99;
+  box-shadow: 0 0 10px #000;
+  /* background: rgba(0,0,0,0.5); */
+  background: -webkit-linear-gradient(top,rgba(217, 202, 202, 0.616),rgba(63, 63, 95, 0.178),rgba(213, 207, 207, 0.37));
+  transition: background-color 0.4 ease-in-out;
+}
+ 
+header.scrolled{
+   background-color: #000;
+   opacity: 0.98;
+}
+
+#chk1{
+  display: none;
+   
+   
+}
+i{
+  color: #fff;
+  cursor: pointer;
+}
+header .logo{
+  flex: 1;
+  color:#fff;
+   
+  margin-left: 50px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+header .search-box{
+  flex: 1;
+  position: relative;
+}
+.search-box input{
+  width:100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  background:#f2f2f2;
+  border-radius: 30px;
+  color:gray;
+  font-size: 16px;
+  padding-left: 5px;
+  padding-right: 40px;
+  text-align: center;
+   
+}
+
+.search-box button{
+  cursor: pointer;
+  width:40px;
+  height: 40px;
+  border-radius: 30px;
+  border:none;
+  position: absolute;
+  top:0;
+  right: 0;
+  transform: scale(0.9);
+  background: green;
+  color: #fff;
+}
+header ul {
+  flex:2;
+  display: flex;
+  justify-content: space-evenly;
+}
+header ul li{
+  list-style: none;
+}
+header ul li a{
+  text-decoration: none;
+  color:#fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 10px 15px;
+}
+header ul li a:hover{
+  border-bottom: 2px solid cadetblue;
+}
+header .menu{
+  font-size: 2.5em;
+  display: none;
+}
+@media(max-width:1000px){
+  .search-box button{
+      position: absolute;
+  }
+  header ul{
+      position: fixed;
+      top:100px;
+      right: -100%;
+      /* background: -webkit-linear-gradient(top,rgba(217, 202, 202, 0.616),rgba(63, 63, 95, 0.178),rgba(213, 207, 207, 0.37)); */
+      background: rgba(0,0,0,0.5);
+      height: calc(100vh - 100px);
+      width:50%;
+      flex-direction: column;
+      align-items: center;
+      transition: right 0.5s linear;
+  }
+   
+  header .menu{
+      display: block;
+      width:100px;
+      text-align: center;
+  }
+  #chk1:checked ~ ul{
+      right: 0;
+      
+  }
+
+}
+
+
+@media screen and (max-width:480px){
+  .message1{
+    overflow-x: hidden;
+  }
+}
+
+
+
+.geeks {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.geeks img {
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+}
+
+.geeks:hover img {
+  transform: scale(1.5);
+}
+
+
+/* testimonial code */
+
+.contain{
+  height: 500px;
+  width: 100%;
+  background: fixed;
+  /* background: -webkit-linear-gradient(top,rgba(122, 122, 216, 0.345),lightblue,rgba(55, 55, 82, 0.603)); */
+}
+.cards{
+  display: flex;
+  justify-items: center;
+  height: 350px;
+  width: 400px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 4px 4px 4px;
+  /* background: -webkit-linear-gradient(left,rgb(188, 211, 188),rgba(163, 217, 204, 0.475),rgb(181, 218, 181)); */
+  box-shadow: 3px 3px 3px grey;
+}
+
+
+.img1{
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  padding: 10px;
+ border-radius: 50%;
+ margin-top: 10px;
+ margin-left: 25%;
+}
+
+.butt{
+  width: 50%;
+  margin-left: 25%;
+}
+
+.icon i{
+  gap: 25px;
+}

@@ -1,0 +1,649 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Rubik+Bubbles&display=swap"
+        rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("XmyJ6zC7ZTc_8OCll");
+        })();
+    </script>
+</head>
+
+<body class="bg-dark">
+    <!-- nav bar -->
+
+    <header>
+        <input type="checkbox" name="" id="chk1">
+        <div class="logo">
+            <h6 class="head3">Techno<span class="text-danger head3">-AVI</span></h6>
+        </div>
+        <div class="search-box">
+            <form>
+                <input type="text" name="search" id="srch" placeholder="Search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+
+            </li>
+        </ul>
+        <div class="menu">
+            <label for="chk1">
+                <i class="fa fa-bars"></i>
+            </label>
+        </div>
+    </header>
+
+
+
+
+    <!-- Carousel -->
+    <!-- data-bs-ride is used for carousel moving pictures. -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1500">
+                <img src="https://images.unsplash.com/photo-1616004655123-818cbd4b3143?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="... " height="550px" width="100%">
+                <div class="carousel-caption  d-md-block">
+                    <h5>THE Services Provided</h5>
+                    <p>Contact Us for the best Services Possible</p>
+                    <br>
+                    <button class="btn btn-danger bt">Services</button>
+                    <button class="btn btn-success bt">About</button>
+                </div>
+            </div>
+            <div class="carousel-item active" data-bs-interval="1500">
+                <img src="https://plus.unsplash.com/premium_photo-1661963874418-df1110ee39c1?q=80&w=1986&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="..." height="550px" width="100%">
+                <div class="carousel-caption  d-md-block">
+                    <h5>THE Services Provided</h5>
+                    <p>Contact Us for the best Services Possible</p><br>
+                    <button class="btn btn-danger bt">Services</button>
+                    <button class="btn btn-success bt">About</button>
+                </div>
+            </div>
+            <div class="carousel-item active" data-bs-interval="1500">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="..." height="550px" width="100%">
+                <div class="carousel-caption  d-md-block">
+                    <h5>THE Services Provided</h5>
+                    <p>Contact Us for the best Services Possible</p><br>
+                    <button class="btn btn-danger bt">Services</button>
+                    <button class="btn btn-success bt">About</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    </header>
+    <hr class="w-30 h-29 text-white">
+
+
+    <!-- about section -->
+    <section class="about" id="about">
+        <div class="container-fluid text-center">
+            <h1 class="head2 mt-4 text-white">
+                About<span class="text-primary head1">US</span></h1>
+            <hr class="w-30 h-20 justify-content-center text-white">
+
+            <div class="row">
+                <div data-aos="zoom-in-up" class="col-lg-6">
+                    <h1 class="head1 text-white">What to do you want to <span class="text-primary">Know</span></h1>
+                    <p data-aos="fade-down-right" class="text-white head3">Our expertise spans a wide range of services,
+                        including responsive website design, e-commerce solutions, custom web applications, and content
+                        management systems. We leverage the latest technologies and industry best practices to ensure
+                        that your website not only looks stunning but also functions seamlessly across devices.</p>
+
+                    <button class="btn btn-success mb-4">LOOK OUT!!</button>
+
+
+                    <!-- ACCORDION -->
+                    <div class="accordion" data-aos="fade-down" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    About US!!
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show bg-dark text-white"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Innovation: We thrive on pushing boundaries and exploring new possibilities. Our
+                                    team is always at the forefront of technological advancements to provide you with
+                                    innovative solutions.
+                                    Collaboration: We believe in the power of collaboration. Your vision is our
+                                    inspiration, and we work closely with you to understand your goals and objectives.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Remarkable History!!
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse bg-dark text-white"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Quality: Excellence is non-negotiable. We are committed to delivering high-quality,
+                                    reliable, and scalable websites that stand the test of time.
+                                    Client-Centric Approach: Your satisfaction is our priority. We value open
+                                    communication and transparency throughout the development process, ensuring that
+                                    your expectations are not only met but exceeded.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Factors to Remember!!
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse bg-dark text-white"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    To empower businesses with a strong and dynamic online presence that not only
+                                    attracts but engages users, fostering growth and success in the digital realm.
+
+                                    Explore the possibilities with Techno-AVI, where innovation meets
+                                    expertise. Let's embark on a journey to redefine your digital presence together.
+                                    Contact us today to discuss how we can bring your vision to life!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="zoom-in-up" class="col-lg-6" data-aos="fade-down">
+                    <div class="geeks">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D"
+                            class="img-fluid p-4 " alt="" height="450px" width="450px">
+                        <div class="overlay overlay_1">
+                            <h3 class="text-white head1">This ia All About Us !! </h3>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- services -->
+    <section class="section" id="services">
+        <div class="container-fluid">
+            <div class="text-center my-4">
+                <h1 class="head2 text-white" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500 ">
+                    Our<span class="text-primary head3">Services</span></h1>
+                <hr class="w-30 text-white">
+            </div>
+            <div class="row"
+                style="background: url(https://img.freepik.com/free-photo/psychedelic-paper-shapes-with-copy-space_23-2149378246.jpg?w=1060&t=st=1703587182~exp=1703587782~hmac=3c053ef44f06b6a340f8191e9812b4c122ab2cbbf327d62f9e7a6786c38aa765);">
+                <div class="col-lg-4 col-md-4">
+                    <div class="card card" data-aos="zoom-in-up">
+                        <div class="card-body">
+                            <div class="text-center "> <i class="fa-solid fa-user text-dark"></i></div>
+
+                            <strong>
+                                <h5 class="card-title text-center head2">Web Development</h5>
+                            </strong>
+                            <p class="card-text head1">With supporting text below as a natural lead-in to additional
+                                content.
+                            </p>
+                            <div class="text-center"> <a href="#" class="btn btn-primary text-center">Look Out!!</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-4 col-md-4">
+                    <div class="card" data-aos="zoom-in-up">
+
+                        <div class="card-body">
+                            <div class="text-center"><i class="fa-solid fa-circle-user text-dark"></i></div>
+
+                            <h5 class="card-title text-center head2">Graphic Designing</h5>
+                            <p class="card-text head1">With supporting text below as a natural lead-in to additional
+                                content.
+                            </p>
+                            <div class="text-center"><a href="#" class="btn btn-primary">Look Out!!</a></div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-4" data-aos="zoom-in-up">
+                    <div class="card" data-aos="zoom-in-up">
+
+                        <div class="card-body">
+                            <div class="text-center"><i class="fa-solid fa-users text-dark"></i></div>
+
+                            <h5 class="card-title text-center head2">Digital Marketing</h5>
+                            <p class="card-text head1">With supporting text below as a natural lead-in to additional
+                                content.
+                            </p>
+                            <div class="text-center"><a href="#" class="btn btn-primary">Look Out!!</a></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4"
+                style="background: url(https://img.freepik.com/free-photo/psychedelic-paper-shapes-with-copy-space_23-2149378246.jpg?w=1060&t=st=1703587182~exp=1703587782~hmac=3c053ef44f06b6a340f8191e9812b4c122ab2cbbf327d62f9e7a6786c38aa765);">
+                <div class="col-lg-4 col-md-4">
+                    <div class="card" data-aos="zoom-in-up">
+
+                        <div class="card-body ">
+                            <div class="text-center"> <i class="fa-solid fa-users text-dark"></i></div>
+
+                            <h5 class="card-title text-center head2">Data Science</h5>
+                            <p class="card-text head1">With supporting text below as a natural lead-in to additional
+                                content.
+                            </p>
+                            <div class="text-center"> <a href="#" class="btn btn-primary">Look Out!!</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="card" data-aos="zoom-in-up">
+
+                        <div class="card-body">
+                            <div class="text-center"><i class="fa-solid fa-circle-user text-dark"></i></div>
+                            <h5 class="card-title text-center head2">SEO Services</h5>
+                            <p class="card-text head1">With supporting text below as a natural lead-in to additional
+                                content.
+                            </p>
+                            <div class="text-center"><a href="#" class="btn btn-primary">Look Out!!</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="card" data-aos="zoom-in-up">
+
+                        <div class="card-body ">
+                            <div class="text-center"><i class="fa-solid fa-users text-dark"></i></div>
+                            <h5 class="card-title text-center head2">Other Technologies</h5>
+                            <p class="card-text head1">With supporting text below as a natural lead-in to additional
+                                content.
+                            </p>
+                            <div class="text-center"> <a href="#" class="btn btn-primary">Look Out!!</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <!-- OUR TEAM -->
+    <section class="my-4" id="team">
+        <div class="container">
+            <div class="text-center my-4">
+                <h1 class="head2 text-white" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    Our<span class="text-primary head2">Team</span></h1>
+                <hr class="w-30 text-white">
+            </div>
+
+            <div class="row justify-content-center"
+                style="background: url(https://img.freepik.com/free-photo/psychedelic-paper-shapes-with-copy-space_23-2149378246.jpg?w=1060&t=st=1703587182~exp=1703587782~hmac=3c053ef44f06b6a340f8191e9812b4c122ab2cbbf327d62f9e7a6786c38aa765);">
+                <div class="col-md-4 col-lg-4 col-sm-12">
+                    <div class="card ">
+
+                        <div class="card-body text-center">
+                            <img data-aos="zoom-in"
+                                src="https://img.freepik.com/free-photo/young-adult-having-great-time-with-friends_23-2149286535.jpg?w=996&t=st=1702034024~exp=1702034624~hmac=636d7dc22854025a439091a03832fad9f23c643813fabbd28528491c562900a1"
+                                alt="..." class="geeks">
+                            <div class="icon">
+                                <i class="fa-brands fa-facebook text-dark i"></i>
+                                <i class="fa-brands fa-square-instagram text-dark"></i>
+                                <i class="fa-brands fa-linkedin text-dark"></i>
+                                <i class="fa-brands fa-skype text-dark"></i>
+                            </div>
+                            <h5 class="card-title ">JASILINA</h5>
+                            <strong>
+                                <p class="card-text ">Front End Developer</p>
+                            </strong>
+                            <a href="#" class="btn btn-primary">Lets Connect</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 col-sm-12">
+                    <div class="card ">
+
+                        <div class="card-body text-center ">
+                            <img data-aos="zoom-in"
+                                src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D"
+                                alt="...">
+                                <div>
+                                    <i class="fa-brands fa-facebook text-dark"></i>
+                                    <i class="fa-brands fa-square-instagram text-dark"></i>
+                                    <i class="fa-brands fa-linkedin text-dark"></i>
+                                    <i class="fa-brands fa-skype text-dark"></i>
+                                </div>
+                            <h5 class="card-title ">LUKE</h5>
+                            <strong>
+                                <p class="card-text">Backend Developer</p>
+                            </strong>
+                            <a href="#" class="btn btn-primary">Lets Connect</a>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="zoom-in" class="col-md-4 col-lg-4 col-sm-12">
+                    <div class="card">
+
+                        <div class="card-body text-center ">
+                            <img src="https://img.freepik.com/free-photo/teenage-girl-with-wavy-hairstyle-posing_344912-2772.jpg?t=st=1702034024~exp=1702034624~hmac=da83e49eb7288fa4e14a2d82cae69fbde1b97b0ced3e60c53079e7736d1506e9"
+                                alt="...">
+                                <div>
+                                    <i class="fa-brands fa-facebook text-dark"></i>
+                                    <i class="fa-brands fa-square-instagram text-dark"></i>
+                                    <i class="fa-brands fa-linkedin text-dark"></i>
+                                    <i class="fa-brands fa-skype text-dark"></i>
+                                </div>
+                            <h5 class="card-title">HARRISNA</h5>
+                            <strong>
+                                <p class="card-text">Senior Deveops Engineer</p>
+                            </strong>
+                            <a href="#" class="btn btn-primary">Lets Connect</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- testimonial -->
+    <div class="text-center my-4">
+        <h1 class="head1 text-white" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500 ">
+            Satisfied<span class="text-primary head2">Customers</span></h1>
+        <hr class="w-20 text-white">
+    </div>
+    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container contain" data-aos="zoom-in"
+                    style="background:url(https://img.freepik.com/free-photo/psychedelic-paper-shapes-with-copy-space_23-2149378246.jpg?w=1060&t=st=1703587182~exp=1703587782~hmac=3c053ef44f06b6a340f8191e9812b4c122ab2cbbf327d62f9e7a6786c38aa765);">
+                    <div class="card cards ">
+
+                        <div>
+                            <img src="https://img.freepik.com/free-photo/cute-dark-haired-guy-with-happy-expression-looking-ahead_259150-57638.jpg?w=996&t=st=1703576186~exp=1703576786~hmac=efbf85692e05a6061810e9337d60e68d8a39e258c612b1b7219bff0aa31625e1"
+                                alt="">
+                        </div>
+                        <div class="text-center mt-4">
+                            <i class="fa-solid fa-heart text-dark"></i>
+                            <i class="fa-solid fa-comment text-dark"></i><br>
+                            <b class="text-center mb-4">Arold Manay</b>
+                            <strong>
+                                <p class="text-center head1">Services Provided Was Great And Maintainance was great too.
+                                </p>
+                            </strong>
+                        </div>
+
+                        <button type="button" class="btn btn-primary butt mb-4">Like Us!!</button>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="carousel-item">
+                <div class="container contain" data-aos="zoom-in"
+                    style="background: url(https://img.freepik.com/free-photo/psychedelic-paper-shapes-with-copy-space_23-2149378246.jpg?w=1060&t=st=1703587182~exp=1703587782~hmac=3c053ef44f06b6a340f8191e9812b4c122ab2cbbf327d62f9e7a6786c38aa765);">
+                    <div class="card cards">
+                        <div>
+                            <img src="https://img.freepik.com/free-photo/positive-emotions-concept-bearded-handsome-man-with-broad-shining-smile-being-good-mood-as-found-good-well-paid-job_273609-17291.jpg?w=996&t=st=1703576115~exp=1703576715~hmac=c9e24dd9234da6f25077b53216737dfcf73f4c899ec5292490cc7d2835660588"
+                                alt="">
+                        </div>
+                        <div class="text-center mt-4">
+                            <i class="fa-solid fa-heart text-dark"></i>
+                            <i class="fa-solid fa-comment text-dark"></i><br>
+                            <b class="text-center mb-4">Statemea Andrew</b>
+                            <strong>
+                                <p class="text-center head1">Services Provided Was Great And Maintainance was great too.
+                                </p>
+                            </strong>
+                        </div>
+
+                        <button type="button" class="btn btn-primary butt mb-4">like us!!</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container contain" data-aos="zoom-in"
+                    style="background: url(https://img.freepik.com/free-photo/psychedelic-paper-shapes-with-copy-space_23-2149378246.jpg?w=1060&t=st=1703587182~exp=1703587782~hmac=3c053ef44f06b6a340f8191e9812b4c122ab2cbbf327d62f9e7a6786c38aa765);">
+                    <div class="card cards">
+                        <div>
+                            <img src="https://img.freepik.com/free-photo/man-vacation-with-big-yellow-suitcase-blue_140725-93978.jpg?w=826&t=st=1703576055~exp=1703576655~hmac=08b25c8c70e407761271929e4c8a89d2d8f4a11bbca54df8598b565d7bfb32cd"
+                                alt="">
+                        </div>
+                        <div class="text-center mt-4">
+                            <i class="fa-solid fa-heart text-dark"></i>
+                            <i class="fa-solid fa-comment text-dark"></i><br>
+                            <b class="text-center mb-4">Afyer Handima</b>
+                            <strong>
+                                <p class="text-center head1">Services Provided Was Great And Maintainance was great too.
+                                </p>
+                            </strong>
+                        </div>
+                        <button type="button" class="btn btn-primary butt mb-4">like us!!</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+
+
+
+    <!-- contact form -->
+
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="text-center my-4 p-4">
+                <h1 class="head2 text-white" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">feel
+                    free<span class="text-primary head2"> to Connect</span></h1>
+                <hr class="w-30 text-white">
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 forma" data-aos="fade-down-right">
+                    <form class="forma border p-4">
+                        <div class="text-center">
+                            <h3 class="head3 text-white" data-aos="fade-down" data-aos-easing="linear"
+                                data-aos-duration="500">let's
+                                <span class="text-success head3">Connect</span>
+                            </h3>
+                            <hr class="w-30 text-white">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label" class="text-white"></label>
+                            <input type="text" class="form-control btm" id="firstname" required
+                                placeholder="First Name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label" class="text-white"></label>
+                            <input type="text" class="form-control btm" id="lastname" required placeholder="Last Name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label" class="text-white"></label>
+                            <input type="email" class="form-control btm" id="email" required
+                                placeholder="Enter your Mail...">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label" class="text-white"></label>
+                            <input type="text" class="form-control btm" id="address" placeholder="Address">
+                            <!-- <textarea name="textarea" id="address" cols="20" rows="5" placeholder="Address"></textarea> -->
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label" class="text-white"></label>
+                            <input type="text" class="form-control" id="Message" placeholder="Type your Message...">
+                        </div>
+                        <button type="submit" class="btn btn-primary" onclick="sendEmail()">Submit</button>
+                    </form>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 map ">
+                    <iframe data-aos="fade-down-left" class="mt-4"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14009.370610647586!2d77.34468475!3d28.619490799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce53c5ad4b151%3A0x57ac9d630880ceab!2sKhora%20Colony%2C%20Sector%2062A%2C%20Noida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1701494901894!5m2!1sen!2sin"
+                        width="100%" height="450" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="w-30 text-white">
+
+
+    <!-- whatsapp icon -->
+
+
+
+    <a class="whats-app " href="#" target="_blank">
+        <i class="fa-brands fa-whatsapp my-float"></i>
+    </a>
+
+    <a class="phone " href="#" target="_blank">
+        <i class="fa-solid fa-phone my-float"></i>
+    </a>
+
+
+
+    <div>
+        <marquee behavior="scroll" direction="left" scrollamount="20">
+            <h4 data-aos="fade-down" class="text-dark head1 " style="background-color: orange;">Hurray!! Avail All the
+                Services At Base price!!!!</h4>
+        </marquee>
+    </div>
+
+    <!-- footer -->
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-12">
+                    <div class="container-fluid bg-dark text-center text-white fs-2 head2 ">
+                        Developed By Abhinya Singh
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-12">
+
+                    <div class="text-center mt-4 div-brand">
+                        <h2 class="text-white head1 fs-5">Social Links</h2>
+
+                        <i class="fa-brands fa-facebook fs-5"></i>
+                        <i class="fa-brands fa-instagram  fs-5"></i>
+                        <i class="fa-brands fa-x-twitter  fs-5"></i>
+                        <i class="fa-brands fa-skype  fs-5"></i>
+                    </div>
+                    <hr class="w-30 text-white">
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
